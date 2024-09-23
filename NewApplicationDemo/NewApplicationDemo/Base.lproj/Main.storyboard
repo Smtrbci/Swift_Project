@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NewApplicationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İstabul Görseli" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKZ-fA-oaf">
+                                <rect key="frame" x="138" y="415.66666666666669" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sql-Mo-TPN">
+                                <rect key="frame" x="112" y="497" width="168" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Değiştir"/>
+                                <connections>
+                                    <action selector="buttontiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5a0-FR-26y"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="istanbul" translatesAutoresizingMaskIntoConstraints="NO" id="H16-QI-9ou">
+                                <rect key="frame" x="33" y="104" width="326" height="238"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="H16-QI-9ou" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0FP-76-RbF"/>
+                            <constraint firstItem="sql-Mo-TPN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="3UW-a9-hs5"/>
+                            <constraint firstItem="H16-QI-9ou" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="47" id="7YN-gK-6aC"/>
+                            <constraint firstItem="sql-Mo-TPN" firstAttribute="top" secondItem="QKZ-fA-oaf" secondAttribute="bottom" constant="29" id="AT7-MA-1t3"/>
+                            <constraint firstItem="QKZ-fA-oaf" firstAttribute="centerX" secondItem="sql-Mo-TPN" secondAttribute="centerX" id="BZn-ra-sUI"/>
+                            <constraint firstItem="H16-QI-9ou" firstAttribute="centerX" secondItem="QKZ-fA-oaf" secondAttribute="centerX" id="Szc-Fi-TMS"/>
+                            <constraint firstItem="QKZ-fA-oaf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mS6-3Z-7If"/>
+                            <constraint firstItem="QKZ-fA-oaf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="ndY-3E-Y2f"/>
+                            <constraint firstItem="QKZ-fA-oaf" firstAttribute="top" secondItem="H16-QI-9ou" secondAttribute="bottom" constant="72" id="tb6-2M-7GK"/>
+                            <constraint firstItem="H16-QI-9ou" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="wg5-Lb-g9L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sql-Mo-TPN" secondAttribute="bottom" constant="239" id="zjs-Sq-q2m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="benimLabel" destination="QKZ-fA-oaf" id="rcW-OQ-KNk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77.099236641221367" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="istanbul" width="800" height="387"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
