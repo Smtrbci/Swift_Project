@@ -9,9 +9,9 @@ var age = 23 // değiştirebilir
 
 age = 25
 
-let  name = "Samet" // değiştirilemez sabit
+let  name = "Dave" // değiştirilemez sabit
 
-//name = "Fatih"
+//name = "Anahi"
 
 
 var temperature: Double = 32.4
@@ -32,7 +32,7 @@ var  score: Int = 32
 
 var pi: Double = 3.14
 
-let greeting: String = "Merhaba, Samet"
+let greeting: String = "Merhaba, Dave"
 
 // 3. Koşul Yapıları (Conditional Statements)
 
@@ -90,14 +90,14 @@ func greet(name: String) -> String{
     return "Merhabai \(name)"
 }
 
-let message = greet(name: "Samet")
+let message = greet(name: "Dave")
 print(message)
 
 
 // 6. Opsiyoneller (Optionals)
 
 var  username : String?
-username = "Smtrbci"
+username = "daveMax"
 
 if let unwrappedUsername = username {
     print("Kullanıcı adı: \(unwrappedUsername)")
@@ -106,6 +106,10 @@ if let unwrappedUsername = username {
 }
 
 //7. Diziler ve Sözlükler (Arrays & Dictionaries)
+
+//Dizi (Array): Birden fazla öğeyi sıralı şekilde saklar.
+//Sözlük (Dictionary): Anahtar-değer çiftleri şeklinde veri saklar.
+
 
 var fruits = ["Elma","Armut","Muz"]
 fruits.append("Portakal")
@@ -134,19 +138,23 @@ class Person{
     }
 }
 
-let person1 = Person(name: "Samet", age: 24)
-person1.introduce() //"Merhaba, Ben Samet ve 24 Yaşındayım"
+let person1 = Person(name: "Dave", age: 24)
+person1.introduce() //"Merhaba, Ben Dave ve 24 Yaşındayım"
 
 
 // 9. Kapatıcılar (Closures)
+
+//Closure'lar, bir fonksiyona benzer yapıda, fakat isimsiz kod bloklarıdır.
 
 let sayMerhaba = { (name: String) -> String in
     return "Merhaba, \(name)!"
 }
 
-    print(sayMerhaba("Samet"))
+    print(sayMerhaba("Dave"))
 
 // 10. Hata Yönetimi (Error Handling)
+
+// hata durumlarını güvenli şekilde yönetmek için do-catch yapısını kullanır.
 
 enum NetworkError: Error{
     case offline
@@ -164,7 +172,3 @@ do {
     } catch {
         print("Bilinmeyen bir hata oluştu")
     }
-
-
-
-// https://chatgpt.com/share/670d5e00-29a8-8008-a881-ae55f2f93716
