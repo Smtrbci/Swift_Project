@@ -16,6 +16,8 @@
 		6C3DC4582CD37CB700DD506A /* CustomPopUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DC4572CD37CB700DD506A /* CustomPopUpTests.swift */; };
 		6C3DC4622CD37CB700DD506A /* CustomPopUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DC4612CD37CB700DD506A /* CustomPopUpUITests.swift */; };
 		6C3DC4642CD37CB700DD506A /* CustomPopUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DC4632CD37CB700DD506A /* CustomPopUpUITestsLaunchTests.swift */; };
+		6C3DC4712CD394D800DD506A /* PopUpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DC4702CD394D800DD506A /* PopUpUIView.swift */; };
+		6C3DC4732CD3950000DD506A /* PopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C3DC4722CD3950000DD506A /* PopUp.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6C3DC45D2CD37CB700DD506A /* CustomPopUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPopUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3DC4612CD37CB700DD506A /* CustomPopUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpUITests.swift; sourceTree = "<group>"; };
 		6C3DC4632CD37CB700DD506A /* CustomPopUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C3DC4702CD394D800DD506A /* PopUpUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpUIView.swift; sourceTree = "<group>"; };
+		6C3DC4722CD3950000DD506A /* PopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUp.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				6C3DC4402CD37CB500DD506A /* AppDelegate.swift */,
 				6C3DC4422CD37CB500DD506A /* SceneDelegate.swift */,
 				6C3DC4442CD37CB500DD506A /* ViewController.swift */,
+				6C3DC4702CD394D800DD506A /* PopUpUIView.swift */,
 				6C3DC4462CD37CB500DD506A /* Main.storyboard */,
+				6C3DC4722CD3950000DD506A /* PopUp.xib */,
 				6C3DC4492CD37CB700DD506A /* Assets.xcassets */,
 				6C3DC44B2CD37CB700DD506A /* LaunchScreen.storyboard */,
 				6C3DC44E2CD37CB700DD506A /* Info.plist */,
@@ -233,6 +239,7 @@
 			files = (
 				6C3DC44A2CD37CB700DD506A /* Assets.xcassets in Resources */,
 				6C3DC44D2CD37CB700DD506A /* Base in Resources */,
+				6C3DC4732CD3950000DD506A /* PopUp.xib in Resources */,
 				6C3DC4482CD37CB500DD506A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C3DC4452CD37CB500DD506A /* ViewController.swift in Sources */,
+				6C3DC4712CD394D800DD506A /* PopUpUIView.swift in Sources */,
 				6C3DC4412CD37CB500DD506A /* AppDelegate.swift in Sources */,
 				6C3DC4432CD37CB500DD506A /* SceneDelegate.swift in Sources */,
 			);
