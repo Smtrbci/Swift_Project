@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "289F2DBD-53B2-4F68-8F89-ADE2E8E86337"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FF6177A-120A-4712-9B37-045DEFED5F2E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LandmarkBook/DetalisVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DetalisVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2FF6177A-120A-4712-9B37-045DEFED5F2E - b725d3786e27e169"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LandmarkBook.DetalisVC.landmarkLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "LandmarkBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sametarabaci/Library/Mobile%20Documents/com~apple~CloudDocs/Xcode%20Projcet/LandmarkBook/LandmarkBook/DetalisVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "2FF6177A-120A-4712-9B37-045DEFED5F2E - d647507da155a51d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LandmarkBook.DetalisVC.landmarkLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "LandmarkBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sametarabaci/Library/Mobile%20Documents/com~apple~CloudDocs/Xcode%20Projcet/LandmarkBook/LandmarkBook/DetalisVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "2FF6177A-120A-4712-9B37-045DEFED5F2E - b690bed45b44fd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LandmarkBook.DetalisVC.landmarkLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "LandmarkBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sametarabaci/Library/Mobile%20Documents/com~apple~CloudDocs/Xcode%20Projcet/LandmarkBook/LandmarkBook/DetalisVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12">
+               </Location>
+               <Location
+                  uuid = "2FF6177A-120A-4712-9B37-045DEFED5F2E - b945687b35503a7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LandmarkBook.DetalisVC.landmarkLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "LandmarkBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sametarabaci/Library/Mobile%20Documents/com~apple~CloudDocs/Xcode%20Projcet/LandmarkBook/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "2FF6177A-120A-4712-9B37-045DEFED5F2E - 614b820a8d742b43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LandmarkBook.DetalisVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LandmarkBook.DetalisVC"
+                  moduleName = "LandmarkBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sametarabaci/Library/Mobile%20Documents/com~apple~CloudDocs/Xcode%20Projcet/LandmarkBook/LandmarkBook/DetalisVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12">
+               </Location>
+               <Location
+                  uuid = "2FF6177A-120A-4712-9B37-045DEFED5F2E - 640b5913ad15b8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LandmarkBook.DetalisVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LandmarkBook.DetalisVC&gt;"
+                  moduleName = "LandmarkBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sametarabaci/Library/Mobile%20Documents/com~apple~CloudDocs/Xcode%20Projcet/LandmarkBook/LandmarkBook/DetalisVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
