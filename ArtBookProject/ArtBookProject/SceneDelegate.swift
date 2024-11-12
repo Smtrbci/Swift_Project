@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  TravelBook
+//  ArtBookProject
 //
-//  Created by Samet Arabacı on 5.11.2024.
+//  Created by Samet Arabacı on 31.10.2024.
 //
 
 import UIKit

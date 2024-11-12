@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		580D00CB2CD95D4300811BB0 /* Exceptions for "TravelBook" folder in "TravelBook" target */ = {
+		580D00CB2CD95D4300811BB0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +21,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		580D00B82CD95D4200811BB0 /* TravelBook */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				580D00CB2CD95D4300811BB0 /* Exceptions for "TravelBook" folder in "TravelBook" target */,
-			);
-			path = TravelBook;
-			sourceTree = "<group>";
-		};
+		580D00B82CD95D4200811BB0 /* TravelBook */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (580D00CB2CD95D4300811BB0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = TravelBook; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +92,7 @@
 				};
 			};
 			buildConfigurationList = 580D00B12CD95D4200811BB0 /* Build configuration list for PBXProject "TravelBook" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +101,6 @@
 			);
 			mainGroup = 580D00AD2CD95D4200811BB0;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 580D00B72CD95D4200811BB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
